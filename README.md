@@ -1,7 +1,11 @@
 #USB3.2 to 16xUSB2.0 bridge IP Design and Verification Project.
 
 Problem Defenition
-> Insert Text here for the problem defenition
+> Develop and verify a DUT for a high speed USB to multiple low speed connections. 
+
+Key Features
+- The design is scalable with upto a configurable number of low speed devices, with which both the design and Verification enviroinment should scale accordingly creating the required number of interfaces, device UVC's etc
+- This whole project is built using all open source tools
 
 Folder structre inside the source
 - rtl
@@ -24,3 +28,12 @@ Folder structre inside the source
         usb_scoreboard
             - Contains asertion related stuff that is used to monitor the USB protocol connect to the usb_monitor
             - monitors the protocol violation and keeps track of the outgoing and incoming transactions
+
+Installation tools required
+- python: Main Verification language
+    - cocotb: Gives access to function to connection to the iverilog interface
+    - PyUVM:  UVM implementation in python for cocotb
+- gtkwave: To view waveform
+- icarus iverilog: to simulate the RTL design with python
+- yosys:   Synthesysing the design
+
