@@ -37,3 +37,11 @@ Installation tools required
 - icarus iverilog: to simulate the RTL design with python
 - yosys:   Synthesysing the design
 
+RTL Architecture:
+![RTL Architecture of the multiple slices in the Complete design](https://github.com/Ismail821/usb_hub-design_and_pyuvm_verif/blob/main_branch/documentation/Detailed_RTL_Architecture.png?raw=true)
+
+A single slice of RTL Pipeline
+![RTL Slice of 1 unit of the design showing sub components](https://github.com/Ismail821/usb_hub-design_and_pyuvm_verif/blob/main_branch/documentation/Single_data_chain.png?raw=true)
+
+PyUVM Scalable Verification architecture 
+![Scalable Verif Architecture with Pyuvm verification](https://github.com/Ismail821/usb_hub-design_and_pyuvm_verif/blob/main_branch/documentation/Testbench_Architecture.png?raw=true)
